@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Manoj Kotakonda Portifolio website</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="main_header">
+      <nav class="nav main_grid">
+        <div>
+          <a href="#" class="logo_nav"><span class="header-t1"> <b> Manoj </b></span> <b> Kotakonda </b></a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#exp" class="nav__link">Experience</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main_container">
+      <!--===== HOME PAGE =====-->
+      <section class="home main_grid" id="home">
+        <div class="home_container">
+          <h1 class="name_title">
+            Hi,<br />I'm <span class="title_name">Manoj Kotakonda</span><br />
+            <span id="dynamic-title" class="title_roll"> SDET </span> Tester
+          </h1>
+
+          <a href="#contact" class="button">Contact</a>
+          <a
+            href="assets/pdf/Manoj_Kotakonda_resume.pdf.pdf"
+            download
+            class="button button_download"
+            > Resume <i style="font-size: 1.2rem" class="bx bx-download"></i>
+          </a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/Manoj-Kotakonda-8977a5161/"
+            class="icons_social"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/ManojKotakonda" class="icons_social"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/ManojKotakondai/?next=%2F"
+            class="icons_social"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <svg
+            class="home__circle"
+            viewBox="0 0 600 600"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <!-- Smooth Circle Shape -->
+            <circle cx="300" cy="300" r="300" fill="#6C63FF" />
+
+            <!-- Mask for Image -->
+            <mask id="circleMask" mask-type="alpha">
+              <circle cx="300" cy="300" r="300" />
+            </mask>
+
+            <g mask="url(#circleMask)">
+              <!-- Background Color -->
+              <rect width="500" height="500" fill="#ff914d" />
+
+              <!-- Image inside the circle -->
+              <image
+                class="home__circle-img"
+                x="0"
+                y="0"
+                width="600"
+                height="600"
+                href="assets/img/image.png"
+                preserveAspectRatio="xMidYMid slice"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container main_grid">
+          <div class="about__img">
+            <img src="assets/img/image_back.jpg" alt="" />
+          </div>
+          <div>
+            <h2 class="about__subtitle">3.8 years of experience</h2>
+            <p class="about_me">
+              I am a <span class="brown_high">SDET Tester</span> with
+              overall 3.8 years of IT experience in Manual Testing, Automation testing, API testing, and Mobile application testing. 
+              I am skilled in designing and executing test strategies across healthcare and enterprise domain. 
+              Proven expertise in building automation frameworks, Defect management, and collaboration in Agile environments to deliver High – quality software.
+              Strong background in SDLC, STLC, and Defectss Life Cycle with focus on improving test efficiency and product quality. Proficient in modern
+              technologies like
+              <span class="green_high"
+                >Manual Testing, Selenium WebDriver, Java, Cucumber BDD, POM, TestNG, Postman, RestAPI, qTest, ALM, HTML,and CSS</span
+              >, I ensure high-performance, accessibility, and visual quality through rigorous UI testing
+            </p>
+            <br />
+            <p class="about_me">
+              As a certified
+              <span class="brown_high"
+                > Full Stack Software Testing</span
+              >, I have hands-on experience gained through a Full Stack Software Testing certification, 
+                 where I worked on testing user interfaces and end-to-end application workflows. 
+                 My experience includes manual and automation testing across front-end, back-end, and  littile bit of database layers, 
+                 ensuring application reliability, performance, and user satisfaction.
+            </p>
+
+            <br />
+            <a
+              href="assets/pdf/Manoj_Kotakonda_resume.pdf"
+              download
+              class="button button_download"
+              >Resume <i style="font-size: 1.2rem" class="bx bx-download"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work experience -->
+      <section class="skills section" id="exp">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="experience_container main_grid" style>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-icon"></div>
+              <div class="timeline-content">
+                <h3>SDET Tester </h3>
+                <h4>Tata Consultancy Services | 2023 - 2025</h4>
+                <ul class="ex_list">
+                  <li>
+                    Implemented automation framework using selenium WebDriver with the Cucumber and Page Object Model (POM) design pattern.
+                  </li>
+                  <li>
+                    Developed and optimized automation scripts for regression testing, improving test coverage and execution efficiency.
+                  </li>
+                  <li>
+                    Executed automated test scripts using Selenium WebDriver and generated detailed execution reports.
+                  </li>
+                  <li>
+                    Performed functional and high-level regression testing to validate application stability after enhancements and fixes.
+                  </li>
+                  <li>
+                    Managed version control systems (Git, Bitbucket) and documented release notes, test cases, and status reports.
+                  </li>
+                  <li>
+                    Participated in status meetings and test lead discussions to provide updates and align testing efforts.
+                  </li>
+                  <li>
+                    
+                  </li>
+                  <li>
+                    
+                  </li>
+                  <li>
+                    
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-icon"></div>
+              <div class="timeline-content">
+                <h3>Manual Tester & Test mangement Tools Admin</h3>
+                <h4>Tata Consultancy Services | 2022 - 2023</h4>
+                <ul class="ex_list">
+                  <li>
+                    Prepared and executed manual test cases covering functional, regression, and integration scenarios.
+                  </li>
+                  <li>
+                    Performed high-level regression testing to validate application stability after enhancements, bug fixes, and releases.
+                  </li>
+                  <li>
+                    Analyzed test results, identified root causes, and documented findings to ensure high-quality deliverables.
+                  </li>
+                  <li>
+                    Contributed to production and pre-production support activities, ensuring smooth application functionality and quick issue resolution.
+                  </li>
+                  <li>
+                    Reported and tracked defects in qTest Manager, collaborated with developers for resolution, and supported defect triaging with detailed bug reports.
+                  <li>
+                    Administered qTest Manager, including user account creation, role assignment, and access control for project teams.
+                  </li>
+                  <li>
+                    Created and configured qTest projects, aligning project settings with testing requirements.
+                  </li>
+                  <li>
+                    Organized and maintained test artifacts such as test cases, test suites, test cycles, and execution results.
+                  </li>
+                  <li>
+                    Supported test planning and execution tracking, ensuring proper linkage between requirements, test cases, and defects.
+                  </li>
+                  <li>
+                    Acted as a Test Management Tools Administrator, providing tool support and governance to ensure smooth QA operations.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container main_grid">
+          <!-- Left column -->
+          <div>
+            <h2 class="skills__subtitle">Professional Skills</h2>
+            <p class="skills__text">I have good knowledge of the following skills</p>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-bug skills__icon"></i>
+                <span class="skills__name">Manual Testing</span>
+              </div>
+              <div class="skills__bar skills__manual"></div>
+              <span class="skills__percentage">95%</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-test-tube skills__icon"></i>
+                <span class="skills__name">Selenium WebDriver</span>
+              </div>
+              <div class="skills__bar skills__selenium"></div>
+              <span class="skills__percentage">85%</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-code-alt skills__icon"></i>
+                <span class="skills__name">Java</span>
+              </div>
+              <div class="skills__bar skills__java"></div>
+              <span class="skills__percentage">80%</span>
+            </div>
+
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-list-check skills__icon"></i>
+                <span class="skills__name">Cucumber (BDD)</span>
+              </div>
+              <div class="skills__bar skills__cucumber"></div>
+              <span class="skills__percentage">85%</span>
+            </div>
+          </div>
+
+          <!-- Right column -->
+          <div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-layer skills__icon"></i>
+                <span class="skills__name">POM & TestNG</span>
+              </div>
+              <div class="skills__bar skills__testng"></div>
+              <span class="skills__percentage">80%</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-cloud skills__icon"></i>
+                <span class="skills__name">Postman & REST API</span>
+              </div>
+              <div class="skills__bar skills__api"></div>
+              <span class="skills__percentage">80%</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-task skills__icon"></i>
+                <span class="skills__name">qTest & ALM</span>
+              </div>
+              <div class="skills__bar skills__alm"></div>
+              <span class="skills__percentage">95%</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <span class="skills__percentage">85%</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <span class="skills__percentage">85%</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-git skills__icon"></i>
+                <span class="skills__name">Git & GitHub & Jenikins</span>
+              </div>
+              <div class="skills__bar skills__git"></div>
+              <span class="skills__percentage">85%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="work__container main_grid">
+          <a href="" class="work__img">
+            <img src="assets\img\Portfolio.webp" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/ecommerce.png" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets\img\Software Testing.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets\img\Mobile application testing.png" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets\img\Api Testing.png" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets\img\Test Management .png" alt="" />
+          </a>
+        </div>
+      </section>
+s
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact__container main_grid">
+          <div class="container">
+            <div class="contact-info">
+              <div class="info-box custom_email">
+                <i class="bx bx-map"></i>
+                <h4>Address</h4>
+                <p>Hyderabad, Telengana</p>
+              </div>
+              <div class="info-box custom_email">
+                <i class="bx bx-envelope"></i>
+                <h4>Mail Me</h4>
+                <a href="mailto:kotakondamanoj969@outlook.com"
+                  >kotakondamanoj969@outlook.com
+                </a>
+              </div>
+              <div class="info-box">
+                <i class="bx bxs-phone"></i>
+                <h4>Telephone</h4>
+                <a href="tel:9959572220">+91 9959572220</a>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="6a929934-763e-4bd3-953d-c3b4e34915ac"
+                />
+                <div class="form-row">
+                  <input
+                    name="User name"
+                    type="text"
+                    placeholder="Your Name"
+                    required
+                  />
+                  <input
+                    name="User email"
+                    type="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+                <div class="form-row">
+                  <input
+                    name="User mobile number"
+                    type="tel"
+                    placeholder="Your Phone"
+                    required
+                  />
+                </div>
+                <!-- <input type="text" placeholder="Subject" /> -->
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  rows="5"
+                ></textarea>
+                <div class="form_send">
+                  <button
+                    id="send_message"
+                    class="button contact__button"
+                    type="submit"
+                  >
+                    Send Message <i class="bx bx-send"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="map_end">
+        <div class="map">
+          <iframe
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Gupta%20niwas,%20PNR%20township,%20Indresham,%20Patancheru+(Manoj%20Kotakonda)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            width="90%"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER SECTION =====-->
+    <footer class="footer">
+      <p class="footer__title"><span class="footer-t1">Manoj</span> Kotakonda</p>
+      <div class="social_icons">
+        <a
+          href="https://www.linkedin.com/in/manoj-kotakonda-7566a5227/"
+          class="icons"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/ManojKotakonda" class="icons"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/manu_143_manvi/"
+          class="icons"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+      </div>
+      <p class="footer__copy">Manoj Kotakonda. All rights reserved</p>
+    </footer>
+
+    <!--===== SCROLL Animation =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
